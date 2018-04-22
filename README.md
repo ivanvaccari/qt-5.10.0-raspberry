@@ -1,4 +1,4 @@
-# qt-5.10.0-raspberry
+# Qt-5.10.0-raspberry
 
 This repository contains the Qt 5.10.0 precompiled binaries/lib for raspberry Pi 2 and later.
 I had a lot of troubles to reach a functional build process and on the net i saw a lot of people having my same troubles.
@@ -14,7 +14,6 @@ Since i figured out how to finally build Qt on raspberry, i decided to put the r
   export LD_LIBRARY_PATH=/opt/Qt5.10/lib/
   export PATH=/opt/Qt5.10/bin:$PATH
   ```
-  
 ## Extra info
 ### Compilation guidelines
 To reach this build i followed a long series of guidelines, but the more useful are:
@@ -28,3 +27,6 @@ Those guidelines states that some package are required for compilation. Unfortun
 
 ### Timing
 The compilation process took AT LEAST 6 hours on a raspberry pi 2 using 3 concurrent threads. The cpu temperature reached 55°C without cooling at 17°C room temperature. With cooling (a fan over the raspberry) the cpu was 32°C as average.
+
+## Comments
+I'm extremely couriuos on who will use this build, if you find this useful please just leave a comment (or a star or everything else) ;-)
