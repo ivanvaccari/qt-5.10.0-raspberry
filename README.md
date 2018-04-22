@@ -1,4 +1,4 @@
-#qt-5.10.0-raspberry
+# qt-5.10.0-raspberry
 
 This repository contains the Qt 5.10.0 precompiled binaries/lib for raspberry Pi 2 and later.
 I had a lot of troubles to reach a functional build process and on the net i saw a lot of people having my same troubles.
